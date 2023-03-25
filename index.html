@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascent Academy To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+   
+
+</head>
+
+<body>
+    <body>
+ 
+        <div class="container">
+            <h1>ASCENT ACADEMY TODO LIST</h1>
+            <h3 style="font-size: 26px;">Add Item</h3>
+            <p>
+                <input id="new-task" type="text" placeholder="Enter Your Tasks"><button>Add</button>
+            </p>
+    
+            <h3 style="font-size: 26px;">Todo</h3>
+            <ul id="incomplete-tasks">
+                <li><input type="checkbox"><label>React</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                <li><input type="checkbox"><label>Flutter</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+            </ul>
+    
+            <h3 style="font-size: 26px;">Tasks Completed</h3>
+            <ul id="completed-tasks">
+                <li><input type="checkbox" checked><label>Angular</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+            </ul>
+        </div>
+    
+    </body>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
